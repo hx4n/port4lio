@@ -4,6 +4,7 @@
 
 body {
     @apply bg-slate-700;
+    @apply text-gray-100;
     display: flex;
     flex-direction: column;
     height: 100vh;
