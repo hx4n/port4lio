@@ -14,7 +14,7 @@ const Projects = () => {
 
   return (
     <div className='mx-auto container'>
-        <h1 className='text-2xl flex items-center justify-center my-10'>My Projects</h1>
+        <h1 className='text-3xl flex items-center justify-center my-10 text-teal-100'>My Projects</h1>
         <div>
           {data && data.map((item, index) => {
             return (

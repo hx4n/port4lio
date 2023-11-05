@@ -7,7 +7,7 @@ const Home = () => {
             <img className='w-[25%] rounded-full mx-auto block' src="../../assets/coolcat.jpeg" alt="pfp" />
         </div>
         <div>
-            <h1 className='my-3 text-3xl'>Hi, I’m Hemansakkthivel👋🏻</h1>
+            <h1 className='my-3 text-3xl'>Hi, I’m <span className='text-teal-100'>Heman</span>sakkthivel👋🏻</h1>
         </div>
         <div>
             <h1 className='text-md'>🧑🏼‍💻 I’m an electronics undergrad and opensource enthu, learning to code for fun✨</h1>

@@ -10,8 +10,8 @@ const Navbar = () => {
         <div>
             <ul className='flex items-center'>
                 <li className='mx-3'><a href='#'>home</a></li>
-                <li className='mx-3'><a href='#projects'>projects</a></li>
-                <li className='mx-3'><a href='#skills'>skills</a></li>
+                <li className='mx-3'><a href='#projects'>about</a></li>
+                <li className='mx-3'><a href='#skills'>projects</a></li>
                 <li className='mx-3'><a href='#contact'>contact</a></li>
             </ul>
         </div>
