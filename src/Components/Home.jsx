@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div id='home' className='flex flex-col items-center justify-center my-[20%]'>
         <div>
-            <img className='w-[25%] rounded-full mx-auto block' src="../../assets/coolcat.jpeg" alt="pfp" />
+            <img className='w-[25%] rounded-full mx-auto block' src="/coolcat.jpeg" alt="pfp" />
         </div>
         <div>
             <h1 className='my-3 text-3xl'>Hi, I’m <span className='text-teal-100'>Heman</span>sakkthivel👋🏻</h1>

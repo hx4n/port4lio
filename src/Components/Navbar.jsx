@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-evenly items-center mt-3'>
         <div className='flex items-center'>
-            <img className='cursor-pointer' src="../../assets/message.svg" alt="msg" />
+            <img className='cursor-pointer' src="/message.svg" alt="msg" />
             <div><a href='mailto:hemansakkthivel04@gmail.com'>Get in touch</a></div>
         </div>
         <div>

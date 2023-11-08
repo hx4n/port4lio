@@ -10,7 +10,7 @@ const Card = ({name, desc, url}) => {
                     <h2 className='text-md w-64'>{desc}</h2>
                 </div>
                 <div className='flex flex-col ml-6'>
-                    <a href={url}><img width="20px" src="../../assets/url.svg" alt="url" /></a>
+                    <a href={url}><img width="20px" src="/url.svg" alt="url" /></a>
                 </div>
             </div>   
         </div>
