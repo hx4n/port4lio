@@ -20,7 +20,7 @@ const Projects = () => {
             return (
               <div key={index}>
                 {/* <Card name={item.name} desc={item.description} url={item.html_url} topics={item.topics} /> */}
-                {item.name !== "hx4n" ? item.name !== "Portfolio-website" ? item.fork !== true ? <Card name={item.name} desc={item.description} url={item.html_url} /> : null : null : null}
+                {item.name !== "hx4n" ? item.name !== "personal-website" ? item.fork !== true ? <Card name={item.name} desc={item.description} url={item.html_url} /> : null : null : null}
               </div>
             )
           })}
