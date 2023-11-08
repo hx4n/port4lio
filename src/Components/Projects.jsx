@@ -13,14 +13,14 @@ const Projects = () => {
   }, [])
 
   return (
-    <div className='mx-auto container'>
+    <div id="projects" className='mx-auto my-24'>
         <h1 className='text-3xl flex items-center justify-center my-10 text-teal-100'>My Projects</h1>
         <div>
           {data && data.map((item, index) => {
             return (
-              <div className='grid grid-cols-2' key={index}>
+              <div key={index}>
                 {/* <Card name={item.name} desc={item.description} url={item.html_url} topics={item.topics} /> */}
-                {item.name !== "hx4n" ? item.name !== "Portfolio-website" ? item.fork !== true ? <Card name={item.name} desc={item.description} url={item.html_url} topics={item.topics} /> : null : null : null}
+                {item.name !== "hx4n" ? item.name !== "Portfolio-website" ? item.fork !== true ? <Card name={item.name} desc={item.description} url={item.html_url} /> : null : null : null}
               </div>
             )
           })}

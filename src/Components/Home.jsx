@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='flex flex-col items-center justify-center my-[20%]'>
+    <div id='home' className='flex flex-col items-center justify-center my-[20%]'>
         <div>
             <img className='w-[25%] rounded-full mx-auto block' src="../../assets/coolcat.jpeg" alt="pfp" />
         </div>

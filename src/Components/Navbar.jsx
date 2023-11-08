@@ -10,9 +10,9 @@ const Navbar = () => {
         <div>
             <ul className='flex items-center'>
                 <li className='mx-3'><a href='#'>home</a></li>
-                <li className='mx-3'><a href='#projects'>about</a></li>
-                <li className='mx-3'><a href='#skills'>projects</a></li>
-                <li className='mx-3'><a href='#contact'>contact</a></li>
+                <li className='mx-3'><a href='#about'>about</a></li>
+                <li className='mx-3'><a href='#projects'>projects</a></li>
+                <li className='mx-3'><a href='#socials'>socials</a></li>
             </ul>
         </div>
     </div>

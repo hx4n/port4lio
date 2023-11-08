@@ -17,7 +17,7 @@ function App() {
     <>
       <motion.div className="progress-bar" style={{ scaleX }} />
       <Navbar />
-      <hr className="w-[75%] text-center mx-auto my-3  border-t-2 border-teal-500" />
+      <hr className="text-center my-3  border-t-2 border-teal-500" />
       <Home />
       <About />
       <Projects />
