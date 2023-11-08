@@ -1,8 +1,17 @@
-# React + Vite
+## personal-website
+This is my personal website that I created to showcase my work and skills.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### stack:
+- React (Vite)
+- Tailwind CSS
+- Framer Motion
 
-Currently, two official plugins are available:
+### install and run:
+1. Clone the repo
+2. Run `yarn`
+3. Run `yarn dev`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### deploy:
+1. Run `firebase init`
+2. Run `yarn build`
+3. Run `firebase deploy`
